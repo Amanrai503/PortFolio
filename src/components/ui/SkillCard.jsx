@@ -1,12 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const SkillCard = ({ title, skills, icon: Icon, delay = 0 }) => {
+const SkillCard = ({ title, skills, icon: Icon, index = 0 }) => {
+    const direction = index % 2 === 0 ? -250 : 250;
+
+    const variants = {
+        hidden: { opacity: 0, x: direction, y: 0 },
+        visible: { opacity: 1, x: 0, y: 0, transition: { duration: 0.4, ease: "linear" } }
+    };
+
     return (
         <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay, type: "spring", bounce: 0.2 }}
+            variants={variants}
             whileHover={{ y: -5 }}
             className="glass-card rounded-[2rem] p-8 h-full relative group overflow-hidden border border-white/5 hover:border-brand-500/30 transition-colors duration-500"
         >

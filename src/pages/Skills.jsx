@@ -42,17 +42,22 @@ const Skills = () => {
                 </p>
             </motion.div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <motion.div 
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, margin: "-100px" }}
+                className="grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-6xl mx-auto"
+            >
                 {categories.map((category, index) => (
                     <SkillCard
                         key={index}
                         title={category.title}
                         skills={category.skills}
                         icon={category.icon}
-                        delay={index * 0.15}
+                        index={index}
                     />
                 ))}
-            </div>
+            </motion.div>
         </div>
     );
 };
