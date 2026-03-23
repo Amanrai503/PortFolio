@@ -95,7 +95,7 @@ const Navbar = () => {
     return (
         <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out flex flex-col ${isVisible ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0 pointer-events-none'} ${scrolled ? 'pt-4' : 'pt-6'}`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-8 w-full">
-                <div className={`glass w-fit mx-auto rounded-full flex items-center justify-center px-12 transition-all duration-500 ${scrolled ? 'py-2 shadow-[0_8px_32px_rgba(255,255,255,0.05)] border-brand-500/20' : 'py-3'}`}>
+                <div className={`glass w-fit mx-auto rounded-full flex items-center justify-center px-12 transition-all duration-500 ${scrolled ? 'py-2 shadow-[0_8px_32px_rgba(0,240,255,0.05)] border-brand-500/20' : 'py-3'}`}>
 
 
                     <div className="hidden md:flex items-center space-x-4">
