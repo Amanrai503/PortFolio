@@ -32,15 +32,15 @@ const About = () => {
                     </div>
                     <div className="space-y-6 text-gray-400 text-lg leading-relaxed font-light relative z-10">
                         <p>
-                            I am a driven Computer Science student with a strong passion for backend development and software engineering. I find joy in designing robust server-side architectures, building scalable APIs, and optimizing database queries.
+                            I am a driven Computer Science student with a strong passion for software engineering, mobile app development, and data science. I find joy in designing secure applications, exploring machine learning models, and building scalable systems.
                         </p>
                         <p>
-                            My technical journey has equipped me with a diverse skill set spanning Java, Node.js, PHP, and databases like MySQL and MongoDB. I thrive in challenging environments where problem-solving and adaptability are key.
+                            My technical journey has equipped me with a diverse skill set spanning Kotlin, Python, C++, Java, and modern frameworks like Jetpack Compose and PyQt5. I thrive in challenging environments where rapid learning and analytical problem-solving are key.
                         </p>
                         <div className="relative mt-8">
                             <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brand-500 to-accent-500 rounded-full"></div>
                             <p className="pl-6 py-2 text-gray-300 font-medium italic">
-                                Currently, I am actively seeking backend development internship opportunities. I am eager to apply my academic knowledge to real-world applications and contribute meaningfully to an engineering team.
+                                Currently, I am actively seeking software development internship opportunities. I am eager to apply my academic knowledge to real-world applications and contribute meaningfully to an engineering team.
                             </p>
                         </div>
 

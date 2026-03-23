@@ -8,27 +8,22 @@ const Skills = () => {
         {
             title: "Languages",
             icon: Code2,
-            skills: ["Java", "Python", "C++", "JavaScript", "C", "PHP"]
+            skills: ["C++", "Java", "Kotlin", "C", "Python", "JavaScript"]
         },
         {
-            title: "Backend",
-            icon: Server,
-            skills: ["NodeJS", "PHP", "Express.js", "REST APIs"]
-        },
-        {
-            title: "Frontend",
+            title: "Frameworks",
             icon: LayoutTemplate,
-            skills: ["HTML", "CSS", "Tailwind CSS", "React"]
+            skills: ["HTML", "CSS", "Android Framework", "PyQt5"]
         },
         {
-            title: "Databases",
-            icon: DatabaseIcon,
-            skills: ["MySQL", "MongoDB", "SQL Design"]
+            title: "Tools & Platforms",
+            icon: Server,
+            skills: ["MySQL", "MongoDB", "Firebase", "Android Studio", "Power BI", "Git"]
         },
         {
             title: "Soft Skills",
             icon: BrainCircuit,
-            skills: ["Problem Solving", "Teamwork", "Leadership", "Adaptability"]
+            skills: ["Analytical Problem-Solving", "Task Planning", "Rapid Learning"]
         }
     ];
 

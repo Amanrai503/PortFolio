@@ -40,7 +40,7 @@ const Home = () => {
                         <div className="p-2.5 rounded-xl bg-brand-500/10 text-brand-400 mr-3 group-hover:bg-brand-500 group-hover:text-white transition-all shadow-[0_0_15px_rgba(255,255,255,0.2)]">
                             <Server size={24} />
                         </div>
-                        Backend Developer
+                        Software Developer
                     </div>
                     <span className="hidden md:inline text-white/20">|</span>
                     <div className="flex items-center justify-center md:justify-start group">
@@ -57,7 +57,7 @@ const Home = () => {
                     transition={{ duration: 0.6, delay: 0.4 }}
                     className="text-lg md:text-xl text-gray-400 mb-14 max-w-2xl mx-auto md:mx-0 leading-relaxed font-light"
                 >
-                    I am a Computer Science student at <strong className="text-gray-200 font-medium">Lovely Professional University</strong> passionate about building scalable web applications. I enjoy engineering robust server-side architectures and APIs.
+                    I am a Computer Science student at <strong className="text-gray-200 font-medium">Lovely Professional University</strong> passionate about Android App Development, Python, and Machine Learning. I enjoy engineering innovative solutions and developing scalable systems.
                 </motion.p>
 
                 <motion.div

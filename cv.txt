@@ -1,0 +1,93 @@
+Aman Rai 
+LinkedIn: https://www.linkedin.com/in/amanrai503 
+Email:  amanrai9436@gmail.com 
+GitHub:    github.com/Amanrai503 
+Mobile:  +91-8766344724 
+ 
+SKILLS 
+ 
+ 
+Languages: 
+C++, Java, Kotlin, C, Python, JavaScript 
+Frameworks:  
+HTML, CSS, Android Framework, PyQt5 
+Tools/Platforms: 
+MySQL, Power BI, MS Excel, Android Studio, MongoDB, Git, GitHub, Firebase 
+Soft Skills: 
+Analytical Problem-Solving, Task Planning & Prioritization, Rapid Learning & Adaptability 
+ 
+PROJECTS 
+ 
+ 
+StrideSide  – A fitness companion App | Link 
+Oct’25 – Dec’25 
+ 
+• Developed an Android fitness tracking app using Kotlin and Jetpack Compose that helps users monitor daily activity, track 
+calories, and find walking partners with built-in safety features 
+• Implemented Firebase for authentication and data storage, and DataStore for local preference management. 
+• Designed modern UI components and interactive onboarding using Jetpack Navigation (Compose) for a seamless user 
+experience 
+• Tech: Kotlin, Jetpack Compose, Firebase, DataStore, Android Studio 
+ 
+ 
+ FortiFile – Secure File Management System | Link 
+Feb’25 – Apr’25 
+ 
+• Built a desktop application using Python (PyQt5) for secure file encryption, decryption, and intelligent file organization 
+• Integrated two-factor authentication (2FA) using Google Authenticator and TOTP for enhanced user security. 
+• Designed the entire system using MVC architecture to keep the code clean, scalable, and easy to maintain 
+• Implemented AES encryption with the Cryptography library and designed a modern dark-themed UI for seamless user 
+experience 
+• Tech: Python, PyQt5, Cryptography (AES), Google Authenticator, TOTP, File I/O, OOP 
+ 
+ 
+     TRAINING 
+ 
+ 
+Data Science, Machine Learning & AI | Link 
+Jun’25 – Jul’25 
+ 
+• Completed hands-on training covering Python, NumPy, Pandas, SQL, data collection, business statistics, and data 
+visualization using Matplotlib & Seaborn.  
+• Built multiple data science projects while learning supervised/unsupervised ML, cross-validation, hyperparameter tuning, 
+deep learning with Keras, and model explainability (SHAP, LIME). 
+• Gained practical experience with modern AI systems including LLMs, transformers, prompt engineering, and developed a RAG 
+pipeline using LangChain, Pinecone, and Streamlit/FastAPI 
+• Skills: Python, NumPy, Pandas, SQL, Matplotlib, Seaborn, Scikit-learn, Keras (TensorFlow), SHAP, LIME, 
+Transformers, LangChain, Pinecone, Streamlit, FastAPI 
+ 
+      CERTIFICATES 
+ 
+ 
+• 
+Social Networks | Link                                                                                                                                                                                         Oct’25 
+• 
+Computer Networking | Link 
+                    Sep’24 
+• 
+Introduction to Hardware and Operating Systems | Link                                                                                                        Sep’24 
+• 
+C Programming Language by CipherSchool | Link 
+                 May’24 
+• 
+Crash Course on Python by Google | Link 
+                  Jan’24 
+• 
+Digital skills: User Experience by Accenture | Link 
+               Oct’23  
+ 
+ 
+      EDUCATION 
+ 
+ 
+Lovely Professional University 
+Phagwara, Punjab 
+Bachelor of Technology – Computer Science and Engineering | CGPA : 7.8 
+Since Aug’ 23 
+Army Public School 
+   Delhi Cantt, Delhi 
+Intermediate | Percentage: 86.0 % 
+Apr’ 21 – Mar’ 22 
+Army Public School                                                                                                                                                       Barrackpore, West Bengal 
+Matriculation | Percentage: 89.0 % 
+Apr’20 – Mar’21 

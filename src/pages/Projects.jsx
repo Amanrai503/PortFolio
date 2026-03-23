@@ -5,28 +5,28 @@ import ProjectCard from '../components/ui/ProjectCard';
 const Projects = () => {
     const projects = [
         {
-            title: "Event Dashboard",
-            description: "A backend-driven web application for managing tasks and events with real-time deadline tracking and status management.",
+            title: "StrideSide – Fitness App",
+            description: "An Android fitness tracking app that helps users monitor daily activity, track calories, and find walking partners with built-in safety features.",
             features: [
-                "Task prioritization and assignment",
-                "Visual deadline tracking",
-                "Robust authentication and session system",
-                "Secure database queries using prepared statements"
+                "Firebase for authentication and cloud storage",
+                "DataStore for local user preference management",
+                "Built with Kotlin and Jetpack Compose for modern UI",
+                "Interactive onboarding and seamless navigation"
             ],
-            techStack: ["PHP", "JavaScript", "Tailwind CSS", "MySQL"],
-            githubLink: "https://github.com/Amanrai503/Event-Planing-Website"
+            techStack: ["Kotlin", "Jetpack Compose", "Firebase", "Android Studio"],
+            githubLink: "https://github.com/Amanrai503"
         },
         {
-            title: "Car Rental Website",
-            description: "An interactive online car rental platform allowing users to browse available vehicles, apply dynamic filters, and seamlessly book their selection.",
+            title: "FortiFile – Secure File Manager",
+            description: "A desktop application for secure file encryption, decryption, and intelligent file organization.",
             features: [
-                "Dynamic real-time car listing presentation",
-                "Secure booking and reservation functionality",
-                "Advanced filtering system by make, model, and price",
-                "Relational database integration for inventory management"
+                "AES encryption using the Cryptography library",
+                "Two-factor authentication (2FA) with TOTP",
+                "Designed using scalable MVC architecture",
+                "Modern dark-themed UI built with Python PyQt5"
             ],
-            techStack: ["HTML", "CSS", "JavaScript", "MySQL", "PHP"],
-            githubLink: "https://github.com/Amanrai503/CAR-RENTAL-"
+            techStack: ["Python", "PyQt5", "AES Cryptography", "OOP"],
+            githubLink: "https://github.com/Amanrai503"
         }
     ];
 
