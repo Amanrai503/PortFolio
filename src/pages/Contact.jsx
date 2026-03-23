@@ -31,7 +31,7 @@ const Contact = () => {
                 className="text-center mb-20"
             >
                 <h1 className="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight font-display drop-shadow-[0_0_20px_rgba(255,255,255,0.1)]">Get In <span className="text-gradient">Touch</span></h1>
-                <div className="w-24 h-1.5 bg-gradient-to-r from-brand-500 to-accent-500 mx-auto rounded-full shadow-[0_0_15px_rgba(0,240,255,0.5)] mb-8"></div>
+                <div className="w-24 h-1.5 bg-gradient-to-r from-brand-500 to-accent-500 mx-auto rounded-full shadow-[0_0_15px_rgba(255,255,255,0.5)] mb-8"></div>
                 <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto font-light leading-relaxed">
                     Currently open for internship opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
                 </p>
@@ -53,7 +53,7 @@ const Contact = () => {
 
                         <div className="space-y-8 relative z-10">
                             <a href="mailto:amanrai9436@gmail.com" className="flex items-center space-x-5 group/link">
-                                <div className="p-4 rounded-2xl bg-white/5 group-hover/link:bg-brand-500/20 group-hover/link:shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-all duration-300">
+                                <div className="p-4 rounded-2xl bg-white/5 group-hover/link:bg-brand-500/20 group-hover/link:shadow-[0_0_15px_rgba(255,255,255,0.3)] transition-all duration-300">
                                     <Mail size={24} className="text-brand-400" />
                                 </div>
                                 <div className="flex flex-col">
@@ -63,7 +63,7 @@ const Contact = () => {
                             </a>
 
                             <a href="tel:+918766344724" className="flex items-center space-x-5 group/link">
-                                <div className="p-4 rounded-2xl bg-white/5 group-hover/link:bg-accent-500/20 group-hover/link:shadow-[0_0_15px_rgba(192,38,211,0.3)] transition-all duration-300">
+                                <div className="p-4 rounded-2xl bg-white/5 group-hover/link:bg-accent-500/20 group-hover/link:shadow-[0_0_15px_rgba(255,255,255,0.3)] transition-all duration-300">
                                     <Phone size={24} className="text-accent-400" />
                                 </div>
                                 <div className="flex flex-col">
@@ -150,7 +150,7 @@ const Contact = () => {
                             </div>
                             <button
                                 type="submit"
-                                className="w-full inline-flex items-center justify-center px-8 py-5 text-lg font-bold rounded-xl text-white bg-white/5 hover:bg-white/10 border border-white/10 hover:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500 transition-all shadow-[0_4px_20px_rgba(0,0,0,0.5)] hover:shadow-[0_0_30px_rgba(0,240,255,0.3)] mt-6 group/btn"
+                                className="w-full inline-flex items-center justify-center px-8 py-5 text-lg font-bold rounded-xl text-white bg-white/5 hover:bg-white/10 border border-white/10 hover:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500 transition-all shadow-[0_4px_20px_rgba(0,0,0,0.5)] hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] mt-6 group/btn"
                             >
                                 Send Message
                                 <Send className="ml-3 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" size={20} />

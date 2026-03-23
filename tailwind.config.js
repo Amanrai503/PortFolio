@@ -8,24 +8,24 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: '#212121',
+        background: '#000000',
         foreground: '#ffffff',
         brand: {
-          50: '#f0fdfa',
-          100: '#ccfbf1',
-          200: '#99f6e4',
-          300: '#5eead4',
-          400: '#2dd4bf',
-          500: '#00f0ff', // Vivid Neon Cyan
-          600: '#00c3d9',
-          700: '#0097a7',
-          800: '#006c7a',
-          900: '#004552',
+          50: '#fafafa',
+          100: '#f5f5f5',
+          200: '#e5e5e5',
+          300: '#d4d4d4',
+          400: '#a3a3a3',
+          500: '#ffffff', // Replacing Vivid Neon Cyan with pure white
+          600: '#d4d4d4', // Replacing brand-600 with light gray
+          700: '#a3a3a3',
+          800: '#737373',
+          900: '#525252',
         },
         accent: {
-          400: '#d946ef',
-          500: '#c026d3', // Electric Purple
-          600: '#a21caf',
+          400: '#e5e5e5',
+          500: '#a3a3a3', // Replacing Electric Purple with gray
+          600: '#737373',
         },
         surface: {
           50: '#1a1a1a',

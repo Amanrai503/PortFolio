@@ -28,7 +28,7 @@ const ProjectCard = ({ title, description, features, techStack, githubLink, dela
                     <ul className="space-y-3">
                         {features.map((feature, idx) => (
                             <li key={idx} className="flex items-start text-sm text-gray-300">
-                                <span className="w-1.5 h-1.5 rounded-full bg-brand-500 mt-1.5 mr-3 flex-shrink-0 shadow-[0_0_8px_rgba(0,240,255,0.8)]" />
+                                <span className="w-1.5 h-1.5 rounded-full bg-brand-500 mt-1.5 mr-3 flex-shrink-0 shadow-[0_0_8px_rgba(255,255,255,0.8)]" />
                                 <span className="leading-relaxed">{feature}</span>
                             </li>
                         ))}

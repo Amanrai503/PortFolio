@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -6,6 +6,8 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const [activeSection, setActiveSection] = useState('home');
+    const [isVisible, setIsVisible] = useState(true);
+    const lastScrollY = useRef(0);
 
     const links = [
         { name: 'Home', path: '#home', id: 'home' },
@@ -17,9 +19,24 @@ const Navbar = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            setScrolled(window.scrollY > 20);
+            const currentScrollY = window.scrollY;
+            setScrolled(currentScrollY > 20);
+
+            if (currentScrollY > 100) {
+                if (currentScrollY > lastScrollY.current) {
+                    // Scrolling down
+                    setIsVisible(false);
+                } else {
+                    // Scrolling up
+                    setIsVisible(true);
+                }
+            } else {
+                // At the top
+                setIsVisible(true);
+            }
+            lastScrollY.current = currentScrollY;
         };
-        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', handleScroll, { passive: true });
         
         // Intersection Observer for active sections
         const observerOptions = {
@@ -76,21 +93,12 @@ const Navbar = () => {
     };
 
     return (
-        <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out ${scrolled ? 'pt-4' : 'pt-6'}`}>
-            <div className="max-w-5xl mx-auto px-4 sm:px-6">
-                <div className={`glass mx-auto rounded-full flex items-center justify-between px-6 transition-all duration-500 ${scrolled ? 'h-16 shadow-[0_8px_32px_rgba(0,240,255,0.05)] border-brand-500/20' : 'h-20'}`}>
-                    <motion.div
-                        initial={{ opacity: 0, x: -20 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        className="flex-shrink-0 font-display font-black text-2xl tracking-tighter cursor-pointer"
-                        onClick={(e) => scrollToSection(e, 'home')}
-                    >
-                        <span className="text-white">A</span>
-                        <span className="text-brand-500">R</span>
-                        <span className="text-accent-500">.</span>
-                    </motion.div>
+        <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out flex flex-col ${isVisible ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0 pointer-events-none'} ${scrolled ? 'pt-4' : 'pt-6'}`}>
+            <div className="max-w-7xl mx-auto px-4 sm:px-8 w-full">
+                <div className={`glass mx-auto rounded-full flex items-center justify-center px-8 transition-all duration-500 ${scrolled ? 'py-2 shadow-[0_8px_32px_rgba(255,255,255,0.05)] border-brand-500/20' : 'py-3'}`}>
 
-                    <div className="hidden md:flex items-center space-x-1">
+
+                    <div className="hidden md:flex items-center space-x-4">
                         {links.map((link) => {
                             const isActive = activeSection === link.id;
                             return (

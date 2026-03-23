@@ -61,7 +61,7 @@ const Preloader = ({ onComplete }) => {
         {Array.from({ length: NUM_COLUMNS }).map((_, i) => (
           <motion.div
             key={i}
-            className="h-full flex-1 bg-[rgb(33,33,33)]"
+            className="h-full flex-1 bg-[#000000]"
             initial={{ y: 0 }}
             animate={startExit ? { y: '100%' } : { y: 0 }}
             transition={{

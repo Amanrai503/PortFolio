@@ -12,7 +12,7 @@ const About = () => {
                 className="text-center mb-20"
             >
                 <h1 className="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight font-display drop-shadow-[0_0_20px_rgba(255,255,255,0.1)]">About <span className="text-gradient">Me</span></h1>
-                <div className="w-24 h-1.5 bg-gradient-to-r from-brand-500 to-accent-500 mx-auto rounded-full shadow-[0_0_15px_rgba(0,240,255,0.5)]"></div>
+                <div className="w-24 h-1.5 bg-gradient-to-r from-brand-500 to-accent-500 mx-auto rounded-full shadow-[0_0_15px_rgba(255,255,255,0.5)]"></div>
             </motion.div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
@@ -25,7 +25,7 @@ const About = () => {
                     <div className="absolute -inset-20 bg-gradient-to-br from-brand-500/10 to-transparent blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
 
                     <div className="flex items-center space-x-4 mb-10 relative z-10">
-                        <div className="p-4 rounded-2xl bg-brand-500/10 text-brand-400 shadow-[0_0_15px_rgba(0,240,255,0.2)]">
+                        <div className="p-4 rounded-2xl bg-brand-500/10 text-brand-400 shadow-[0_0_15px_rgba(255,255,255,0.2)]">
                             <Briefcase size={32} />
                         </div>
                         <h2 className="text-3xl font-bold text-white font-display">Professional Bio</h2>
@@ -72,14 +72,14 @@ const About = () => {
                     <div className="absolute -inset-20 bg-gradient-to-bl from-accent-500/10 to-transparent blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
 
                     <div className="flex items-center space-x-4 mb-10 relative z-10">
-                        <div className="p-4 rounded-2xl bg-accent-500/10 text-accent-400 shadow-[0_0_15px_rgba(192,38,211,0.2)]">
+                        <div className="p-4 rounded-2xl bg-accent-500/10 text-accent-400 shadow-[0_0_15px_rgba(255,255,255,0.2)]">
                             <GraduationCap size={32} />
                         </div>
                         <h2 className="text-3xl font-bold text-white font-display">Education</h2>
                     </div>
 
                     <div className="relative border-l-2 border-white/10 pl-8 pb-4 ml-4 relative z-10 group-hover:border-white/20 transition-colors">
-                        <span className="absolute -left-[11px] top-1 px-1.5 py-1.5 rounded-full bg-black border-2 border-accent-500 shadow-[0_0_10px_rgba(192,38,211,0.5)]">
+                        <span className="absolute -left-[11px] top-1 px-1.5 py-1.5 rounded-full bg-black border-2 border-accent-500 shadow-[0_0_10px_rgba(255,255,255,0.5)]">
                             <span className="block w-2 h-2 rounded-full bg-accent-400"></span>
                         </span>
                         <div className="mb-3 flex items-center text-xs font-bold tracking-[0.15em] text-accent-400 uppercase">

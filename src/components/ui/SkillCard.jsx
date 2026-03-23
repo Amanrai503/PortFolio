@@ -14,7 +14,7 @@ const SkillCard = ({ title, skills, icon: Icon, delay = 0 }) => {
             <div className="absolute -inset-20 bg-gradient-to-r from-brand-500/20 to-accent-500/20 blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
 
             <div className="flex items-center space-x-5 mb-8 relative z-10">
-                <div className="p-4 bg-white/5 rounded-2xl text-brand-400 group-hover:text-white group-hover:bg-gradient-to-br group-hover:from-brand-500 group-hover:to-accent-500 transition-all duration-300 shadow-[0_0_15px_rgba(0,0,0,0)] group-hover:shadow-[0_0_30px_rgba(0,240,255,0.4)]">
+                <div className="p-4 bg-white/5 rounded-2xl text-brand-400 group-hover:text-white group-hover:bg-gradient-to-br group-hover:from-brand-500 group-hover:to-accent-500 transition-all duration-300 shadow-[0_0_15px_rgba(0,0,0,0)] group-hover:shadow-[0_0_30px_rgba(255,255,255,0.4)]">
                     <Icon size={28} strokeWidth={1.5} />
                 </div>
                 <h3 className="text-2xl font-display font-semibold text-white tracking-wide">{title}</h3>
